@@ -57,10 +57,10 @@ function getDistance(pointA, pointB) {
 |               | _name: string,_ |                |
 |               | _age: number,_  |                |
 |               | }               |                |
-| `getAge`      |                 |                |
-| `makePerson`  |                 |                |
-| `birthday`    |                 |                |
-| `getDistance` |                 |                |
+| `getAge`      | Person          | number         |
+| `makePerson`  | string, age     | Person         |
+| `birthday`    | Person          | Person         |
+| `getDistance` | Point, Point    | number         |
 
 
 [Main menu](README.md) | [Exercise 3 - Function Signatures](ex3.md)

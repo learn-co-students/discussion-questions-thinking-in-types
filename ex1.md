@@ -16,14 +16,14 @@ arguments. They also hint at what the 'right' operations to do are.
 
 ### For the following functions, fill in the table with the types of the inputs and the types of the outputs.
 
-| Function                                              | types of inputs | type of output | _resources_                                                                                               |
-| ----------------------------------------------------- | --------------- | -------------- | --------------------------------------------------------------------------------------------------------- |
-| `function subtractThree(number) { return number - 3}` | _number_        | _number_ | [Subtraction(-)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Subtraction) |
-| `function addFive(number) { return number + 5}`       |                 |                | [Addition(+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition)       |
-| `function sum(A, B) { return A + B }`                 |                 |                | [Addition(+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition)       |
-| `function concat(A, B) { return "" + A + B }`         |                 |                | [Addition(+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition)       |
-| `document.querySelector`                              |                 |                | [querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)                  |
-| `window.fetch`                                        |                 |                | [fetch](https://developer.mozilla.org/en-US/docs/Web/API/fetch)                                           |
+| Function                                              | types of inputs  | type of output | _resources_                                                                                               |
+| ----------------------------------------------------- | ---------------- | -------------- | --------------------------------------------------------------------------------------------------------- |
+| `function subtractThree(number) { return number - 3}` | _number_         | _number_       | [Subtraction(-)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Subtraction) |
+| `function addFive(number) { return number + 5}`       | number           | number         | [Addition(+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition)       |
+| `function sum(A, B) { return A + B }`                 | number, number   | number         | [Addition(+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition)       |
+| `function concat(A, B) { return "" + A + B }`         | string, string   | string         | [Addition(+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition)       |
+| `document.querySelector`                              | string           | DOM Node       | [querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)                  |
+| `window.fetch`                                        | string, (object) | Promise        | [fetch](https://developer.mozilla.org/en-US/docs/Web/API/fetch)                                           |
 
 
 [Main menu](README.md) | [Exercise 2 - Shapes of Objects](ex2.md)
